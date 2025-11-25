@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom: background image (use drawable item so vectors work too) -->
+    <item android:drawable="@drawable/ic_launcher_background" />
+    <!-- Top: semi-transparent fuchsia overlay so image remains visible -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80E91E63" />
+        </shape>
+    </item>
+</layer-list>

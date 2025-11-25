@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#6A1B9A"
+                android:centerColor="#8E24AA"
+                android:endColor="#311B92"
+                android:angle="135" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Fuchsia pink overlay with alpha to darken -->
+            <solid android:color="#AAE91E63" />
+        </shape>
+    </item>
+</layer-list>
